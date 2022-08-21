@@ -1,0 +1,73 @@
+@media only screen and (min-width:768px){
+    body { 
+        background-color: lightblue;
+    }
+
+    .menu {
+        display: none;
+        padding: 25px;
+    }
+
+    nav ul {
+        display: block;
+        padding: 25px;
+    }
+    nav ul li {
+        width: 20%;
+        text-align: center;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    .btn-group{
+        margin-top:100px;
+    }
+
+    .profile {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .speakers{
+        text-align: center;
+    }
+
+    .map{
+        width: 50%;
+        float: left;
+    }
+
+    form{
+        width: 50%;
+        float: right;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:992px)  {
+    body { 
+        background-color:lightgoldenrodyellow;
+    }
+    .btn-group{
+        margin-top:150px;
+    }
+    .profile {
+        width: 22.5%;
+        display: inline-block;
+    }
+}
